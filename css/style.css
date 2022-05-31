@@ -103,7 +103,7 @@ ul{
     position: relative;
 }
 .shawerma__wrapper{
-    margin: 16px 20px;
+    padding: 16px 20px;
 }
 .shawerma__title{
     font-weight: 800;
@@ -134,7 +134,7 @@ ul{
     color: #000000;
     opacity: 0.6;
     max-width: 273px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 .shawerma__card-bottom{
     display: flex;
@@ -172,3 +172,8 @@ line-height: 21px;
 text-align: center;
 color: #FFFFFF;
 }*/
+.shawerma__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
